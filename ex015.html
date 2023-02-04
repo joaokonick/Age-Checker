@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercise Model</title>
+</head>
+
+<body>
+    <header>
+        <h1>Age Checker</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Year of Birth:
+                <input type="number" name="txtyear" id="txtyear">
+            </p>
+            <p>Gen:
+                <input type="radio" name="radgen" id="men" checked>
+                <label for="Men">Masculine</label>
+                <input type="radio" name="radgen" id="wom">
+                <label for="wom">Feminine</label>
+
+            </p>
+            <p>
+                <input type="button" value="Check" onclick="check()">
+            </p>
+        </div>
+        <div id="res">
+            Fill in the details above to see the result!
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; João Konick</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
